@@ -16,7 +16,7 @@ using namespace std;
 // else only consecutive duplicates would be removed 
 int  kSum(vector<int>& nums, int k) {
         
-		ll sum=0,n=nums.size();
+	ll sum=0,n=nums.size();
         vector<ll> ans;
         for(ll i=0;i<nums.size();i++)
         {
